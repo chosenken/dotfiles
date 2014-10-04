@@ -140,5 +140,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-# Faster npm for Europeans
-command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
+alias caskinstall='brew cask install --appdir="/Applications"'
+alias caskupdate='brew cask update'
+alias casksearch='brew cask search'
+alias cask='brew cask'
