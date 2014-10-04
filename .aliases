@@ -147,3 +147,8 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+alias caskinstall='brew cask install --appdir="/Applications"'
+alias caskupdate='brew cask update'
+alias casksearch='brew cask search'
+alias cask='brew cask'
