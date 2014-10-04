@@ -20,6 +20,8 @@ alias j="jobs"
 alias ga="git add"
 alias gcm="git commit -m"
 alias gs="git status"
+alias gp="git push"
+alias gpl="git pull"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
