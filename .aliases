@@ -17,6 +17,10 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
+alias ga="git add"
+alias gcm="git commit -m"
+alias gs="git status"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
@@ -34,6 +38,9 @@ alias la="ls -laF ${colorflag}"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
+
+# List all files colorized in long format, sorted by date last edited
+alias ltr="ls -ltrF ${colorflag}"
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
