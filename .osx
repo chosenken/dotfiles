@@ -344,12 +344,9 @@ defaults write com.apple.dock show-process-indicators -bool true
 # the Dock to launch apps.
 #defaults write com.apple.dock persistent-apps -array
 
-<<<<<<< HEAD
 # Show only open applications in the Dock
 #defaults write com.apple.dock static-only -bool true
 
-=======
->>>>>>> 4957a5f81e0acafc84c93020f62532e4451152ae
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.1
 
@@ -371,12 +368,9 @@ defaults write com.apple.dock autohide-delay -float 0
 # Remove the animation when hiding/showing the Dock
 defaults write com.apple.dock autohide-time-modifier -float 0
 
-<<<<<<< HEAD
 # Enable the 2D Dock
 #defaults write com.apple.dock no-glass -bool true
 
-=======
->>>>>>> 4957a5f81e0acafc84c93020f62532e4451152ae
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
