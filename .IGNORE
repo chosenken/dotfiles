@@ -14,3 +14,7 @@ Desktop.ini
 *~
 *.swp
 *.swo
+
+.bash_profile
+.bash_prompt
+.bashrc
